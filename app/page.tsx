@@ -8,7 +8,7 @@ export default async function Lista() {
 
   return (
     <div className="flex h-screen justify-center  bg-black">
-      <div className="flex justify-center ">
+      <div className="flex justify-center bg-zinc-700 ">
         <div className="">
           <ul className="text-white	">
             {paises.map((p) => (
